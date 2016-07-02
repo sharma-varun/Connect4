@@ -10,7 +10,7 @@ horizontally, vertically, or diagonally.
 
 ###Project Architecture
 * **_Main.java_**: the main driver class. 
-* *_Connect4Game.java_*: the object that stores the current status of the game. Connect4Game stores the game board as
+* **_Connect4Game.java_**: the object that stores the current status of the game. Connect4Game stores the game board as
 a list of Connect4Columns.
 * **_Connect4Column.java_**: the object that stores a single column of the game board.
 A Connect4Column stores a list of Connect4Slots, from the top to the bottom. The
